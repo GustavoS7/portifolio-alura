@@ -16,6 +16,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
 .header {
   padding: 2% 0% 0% 15%;
 }
@@ -26,7 +31,10 @@
 }
 
 .header__menu__item {
-
+  text-decoration: none;
+  color: var(--tertiary);
+  font-family: var(--secondary-font);
+  font-size: 1.5rem;
 }
 
 .presentation {
